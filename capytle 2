@@ -18,3 +18,9 @@
 
 </body>
 </html>
+
+body{
+  background-image: url("aurafarm.jpg");
+  background-size: cover;
+}
+
