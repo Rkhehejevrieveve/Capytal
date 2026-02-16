@@ -5,22 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Trépieds c'est goatesque</title>
+  <title>Trépieds</title>
 </head>
 <body>
+  <!--pour le fond -->
+    <div class="ok">
   <h1><center>Les Trépieds</center></h1>
   <h2><center>En quoi les Trépieds sont des objets indispensables pour le genre humain ?</center></h2>
-  <ul>
-    <li>si vous voulez connaitre l'origine du trépieds cliquez ici</li>
-  </ul>
-  
-  
+  <p><center>Bienvenue, Nous sommes l'espèce supérieur à la race humaine.<br/>Dans cette page nous allons présenter les Trépieds et leurs origines.</center></p>
+  <img  src="aurafarm.jpg" height="auto",width="20%" ,class="img">
+  <h2>Les différents types de trépieds</h2>
+  <table border="3" cellspacing="1" cellpadding="1" width="50%"  text-align:center>
+  <tr><h1>
+    <th>Nom du trépieds</th>
+    <th>Époque</th>
+    <th>Image</th>
+  </h1></tr>
+    <tr><h2>
+      <td>Trépied de Delphes</td>
+      <td>Grèce Antique</td>
+      <td><img src="cooking.jpg" width="120" height="auto"></td>
+    </h2></tr>
+    <tr><h2>
+      <td>Trépieds domestique romain</td>
+      <td>Empire romain</td>
+      <td><img src="jeankul3mdrlol67.jpg" width="120" height="auto"></td>
+    </tr>
+    <tr>
+      <td>Trépieds d'âtres</td>
+      <td>Moyen Age</td>
+      <td><img src="tsaisilsepassequoiquand tucombinesle67etlegriddy677777è.jpg" width="120" height="auto"></td>
+    </tr>
+    <tr>
+      <td>Trépieds cinématographique</td>
+      <td>Époque contemporaine</td>
+      <td><img src="emotefortnite67etfloss.jpg" width="120" height="auto"></td>
+    </tr>
+    <tr>
+      <td>Trépieds intelligent</td>
+      <td>Époque numérique</td>
+      <td><img src="reichchhcchh.jpg" width="120" height="auto"></td>
+    </tr>
+    <button class="btn">Clique ici</button>
 
+    
+
+  
+  
+</div>
 </body>
 </html>
-
-body{
-  background-image: url("aurafarm.jpg");
-  background-size: cover;
-}
-
