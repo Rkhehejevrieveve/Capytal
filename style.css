@@ -1,31 +1,47 @@
 body{
-  background-image: url("trépiedsfond.jpg");
+  background-color: #000000;
   background-size: cover;
+  background-attachment: fixed;
   
 }
 th{
-  background-color: green
+  background-color: white
   
 }
 .ok{
   background-color: white;
   background-position:center;
   colour: black;
-    width: 60%;          /* largeur plus petite */
+    width: 1000px;          
   margin: 50px auto;
   border: 10px solid black;
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
+  border-radius: 15px;
 }
 }
 .img{
     
 }
+.jean{
+  background-position:center;
+}
 
+.button{
+    position: fixed;       
+    bottom: 20px;           
+    right: 20px;            
+    padding: 12px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
 
-
-
-
-lien:https://www.ebay.fr/itm/396702331341(pour l'image du tableau dans la page 1 Le trépieds intelligent)
-https://www.alamyimages.fr/camera-de-cinema-vintage-sur-trepied-rendu-3d-image388644141.html(pour l'image du tableau page 1 le Trépieds cinématographique)
+.button:hover {
+    background-color: #777B7E;
+}
