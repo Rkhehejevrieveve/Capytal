@@ -8,14 +8,32 @@
   <title>Trépieds</title>
 </head>
 <body>
-  <!--pour le fond -->
     <div class="ok">
   <h1><center>Les Trépieds</center></h1>
   <h2><center>En quoi les Trépieds sont des objets indispensables pour le genre humain ?</center></h2>
-  <p><center>Bienvenue, Nous sommes l'espèce supérieur à la race humaine.<br/>Dans cette page nous allons présenter les Trépieds et leurs origines.</center></p>
-  <img  src="aurafarm.jpg" height="auto",width="20%" ,class="img">
-  <h2>Les différents types de trépieds</h2>
-  <table border="3" cellspacing="1" cellpadding="1" width="50%"  text-align:center>
+  <p><center>Bienvenue, Nous sommes l'espèce supérieur à la race humaine.<br>Dans cette page nous allons présenter les Trépieds et leurs origines.<br/></center><br><h2>Sommaire de la page :</h2><ol>
+    <li><a href="#id1">Qu'est-ce qu'un trépieds ?</a></li>
+    <li><a href="#id2">Les avantages</a></li>
+    <li><a href="#id3">Les différent types de trépieds</a></li>
+    </ol>
+      <h2 id="id1">Qu'est-ce qu'un trépied ?</h2>
+      <p>Un trépied est un support à trois pieds utilisé comme table, siège ou base pour différents objets. Grâce à ses trois points d’appui, il est toujours stable, même sur un sol irrégulier.
+
+Autrefois, il servait notamment à maintenir des récipients au-dessus du feu dans les cheminées. Avec l’apparition des fourneaux, il est devenu moins indispensable pour la cuisine.
+
+Aujourd’hui, le trépied est surtout utilisé comme support stable pour des appareils nécessitant de la précision, comme en photographie, en géométrie ou dans certains dispositifs de levage. Son principe existe depuis l’Antiquité.
+(source:<a href="https://fr.wikipedia.org/wiki/Tr%C3%A9pied">Wikipédia</a>)</p>
+      <img  src="aurafarm.jpg" height="auto",width="20%" ,class="img">
+      <h2 id="id2">Les avantages &#128247 !!!!</h2>
+      <ul>
+        <li>Stabilité PARFAITE</li>
+        <li>Adaptés au surface irrégulières</li>
+        <li>Réglable en hauteur</li>
+        <li>Léger et transportables</li>
+      </ul>
+  <h2 id="id3"><center>Les différents types de trépieds</center></h2>
+      <center>
+  <table border="3" cellspacing="1" cellpadding="1", width="50%">
   <tr><h1>
     <th>Nom du trépieds</th>
     <th>Époque</th>
@@ -46,10 +64,12 @@
       <td>Époque numérique</td>
       <td><img src="reichchhcchh.jpg" width="120" height="auto"></td>
     </tr>
-    <button class="btn">Clique ici</button>
-
-    
-
+      </center>
+      
+</div>
+  <a href="trep1.html" class="button">Aller à la page 2</a>
+</body>
+</html>
   
   
 </div>
