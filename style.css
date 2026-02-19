@@ -1,9 +1,6 @@
-body{
-  background-color: #000000;
-  background-size: cover;
-  background-attachment: fixed;
+
   
-}
+
 th{
   background-color: white
   
@@ -45,3 +42,97 @@ th{
 .button:hover {
     background-color: #777B7E;
 }
+
+h1 {
+  color:black;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+
+
+body {
+background-image: url(coulfond.jpg);
+background-attachment: fixed;
+background-size: cover;
+padding: 40px;
+
+}
+
+
+
+
+img {
+  border-radius: 12px;
+}
+
+
+
+
+
+
+.fond{
+  background-color: white;
+  background-position: center;
+  width:1000px;
+  padding:100px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.fond {
+  padding: 15px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.fond:hover {
+  transform: translateY(-5px);
+}
+
+
+.fond img:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+.fond {
+  animation: fadeIn 1s ease;
+}
+
+.lien{
+  background-color: black;
+  width:8%;
+  padding: 5px;
+  border-radius: 15px;
+  top:50%;
+}
+
+.lie{
+  background-color: black;
+  width:11%;
+  padding: 5px;
+  border-radius: 15px;
+    float:right;
+
+  
+}
+a{
+  color:white;
+}
+.li{
+  background-color: black;
+  width:12%;
+  padding: 5px;
+  border-radius: 15px;
+}
+.l{
+  background-color: black;
+  width:9%;
+  padding: 5px;
+  border-radius: 15px;
+    float:right;
+
+}
+
