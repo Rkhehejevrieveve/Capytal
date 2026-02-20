@@ -3,6 +3,10 @@ ol a {
   
 }
   
+p a {
+  color: blue;
+  
+}
 
 th{
   background-color: white;
