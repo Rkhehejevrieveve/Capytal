@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Titre de la page</title>
+</head>
+<body>
+  <div class="fond" id="fond">
+  <center><h1>Quiz sur les trépieds</h1></center>
+    <script>
+function verifier(reponse) {
+    if (reponse === true) {
+        document.getElementById("resultat").innerHTML = "✅ Bonne réponse !";
+    } else {
+        document.getElementById("resultat").innerHTML = "❌ Mauvaise réponse.";
+    }
+}
+</script>
+<h2>Question : </h2>
+<p>1.Les trépieds sont-ils omniprésents?</p>
+
+<button onclick="verifier(true)">Vrai</button>
+<button onclick="verifier(false)">Faux</button>
+
+<p id="resultat"></p>
+  
+
+    
+
+    
+    
+<p>2.Quelle est le meilleur trépieds pour prendre des photos avec des angles otiginaux</p>
+
+
+<select id="choix">
+  <option value="">Choisir la bonne réponse</option>
+  <option value="1">Trépieds complets</option>
+  <option value="2">Manfrotto Element MII Traveler</option>
+  <option value="3">Joby GorillaPod 3K PRO Stand</option>
+</select>
+
+<br><br>
+
+<button onclick="verifi()">Vérifier</button>
+
+<p id="result"></p>
+
+<script>
+function verifi() {
+    var reponse = document.getElementById("choix").value;
+
+    if (reponse === "3") {
+        document.getElementById("result").innerHTML = "✅ Bonne réponse !";
+    } else {
+        document.getElementById("result").innerHTML = "❌ Mauvaise réponse.";
+    }
+}
+</script>
+  
+  
+  
+  
+
+    
+
+<p>3. Quel accessoire permet de stabiliser un appareil photo ?</p>
+<p><b>Format de réponse :</b> tout en minuscule, sans accent</p>
+
+<input type="text" id="reponse">
+
+<br><br>
+
+<button onclick="verifierTexte()">Vérifier</button>
+
+<p id="resultat3"></p>
+
+<script>
+function verifierTexte() {
+    var reponse = document.getElementById("reponse").value;
+
+    if (reponse === "trepied") {
+        document.getElementById("resultat3").innerHTML = "✅ Bonne réponse !";
+    } else {
+        document.getElementById("resultat3").innerHTML = "❌ Mauvaise réponse.";
+    }
+}
+</script>
+
+
+
+
+    
+<script>
+let score = 0;
+let q1 = false;
+let q2 = false;
+let q3 = false;
+
+function verifier(reponse) {
+    if (reponse === true) {
+        document.getElementById("resultat").innerHTML = "✅ Bonne réponse !";
+        if (!q1) { score++; q1 = true; }
+    } else {
+        document.getElementById("resultat").innerHTML = "❌ Mauvaise réponse.";
+    }
+}
+
+function verifi() {
+    var reponse = document.getElementById("choix").value;
+
+    if (reponse === "3") {
+        document.getElementById("result").innerHTML = "✅ Bonne réponse !";
+        if (!q2) { score++; q2 = true; }
+    } else {
+        document.getElementById("result").innerHTML = "❌ Mauvaise réponse.";
+    }
+}
+
+function verifierTexte() {
+    var reponse = document.getElementById("reponse").value;
+
+    if (reponse === "trepied") {
+        document.getElementById("resultat3").innerHTML = "✅ Bonne réponse !";
+        if (!q3) { score++; q3 = true; }
+    } else {
+        document.getElementById("resultat3").innerHTML = "❌ Mauvaise réponse.";
+    }
+}
+
+function afficherScore() {
+    let message = "";
+
+    if (score === 3) {
+        message = "🏆 Excellent ! Tu connais très bien les trépieds.";
+
+      document.getElementById("fond").style.backgroundImage = "url('https://st2.depositphotos.com/2398103/5273/v/450/depositphotos_52734623-stock-illustration-vector-well-done-star.jpg')";
+
+      document.getElementById("fond").style.backgroundSize = "cover";
+    }
+    else if (score === 2) {
+        message = "👍 Bien joué !";
+    }
+    else if (score === 1) {
+        message = "🙂 Pas mal, mais tu peux faire mieux.";
+    }
+    else {
+        message = "📚 À revoir.";
+    }
+
+    document.getElementById("scoreFinal").innerHTML =
+        "🎯 Ton score final est : " + score + " / 3 <br>" + message;
+}
+</script>
+
+<br><br>
+
+<button onclick="afficherScore()">Voir mon score</button>
+
+<p id="scoreFinal"></p>
+  
+  </div>
+</body>
+</html>
